@@ -44,7 +44,7 @@ const CONFIG = {
   },
   audio: {
     // Built-in music bed, started by the opening tap.
-    customAudioUrl: ""
+    customAudioUrl: "shima-nikhil-wedding/assets/music.mp3"
   },
   gallery: [
     { src: "assets/gallery-1.jpg", title: "" },
