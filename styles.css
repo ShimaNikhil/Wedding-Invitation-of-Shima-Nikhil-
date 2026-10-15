@@ -1,23 +1,23 @@
-@font-face{font-family:'Digits TNR';font-style:normal;font-weight:100 599;src:local('Times New Roman'), local('TimesNewRomanPSMT'), url(assets/fonts/tinos-latin-400-normal.woff2) format('woff2');unicode-range:U+0030-0039}
-@font-face{font-family:'Digits TNR';font-style:normal;font-weight:600 900;src:local('Times New Roman Bold'), local('TimesNewRomanPS-BoldMT'), url(assets/fonts/tinos-latin-700-normal.woff2) format('woff2');unicode-range:U+0030-0039}
-@font-face{font-family:'Digits TNR';font-style:italic;font-weight:100 599;src:local('Times New Roman Italic'), local('TimesNewRomanPS-ItalicMT'), url(assets/fonts/tinos-latin-400-italic.woff2) format('woff2');unicode-range:U+0030-0039}
-@font-face{font-family:'Pinyon Script';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/pinyon-script-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/cormorant-garamond-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/cormorant-garamond-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/cormorant-garamond-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/cormorant-garamond-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:400;font-display:swap;src:url(assets/fonts/cormorant-garamond-latin-400-italic.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:600;font-display:swap;src:url(assets/fonts/cormorant-garamond-latin-600-italic.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Jost';font-style:normal;font-weight:300;font-display:swap;src:url(assets/fonts/jost-latin-300-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Jost';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/jost-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Jost';font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/jost-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Jost';font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/jost-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Anek Malayalam';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/anek-malayalam-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Anek Malayalam';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/anek-malayalam-malayalam-400-normal.woff2) format('woff2');unicode-range:U+0307,U+0323,U+0964-0965,U+0D00-0D7F,U+200C-200D,U+20B9,U+25CC}
-@font-face{font-family:'Anek Malayalam';font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/anek-malayalam-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Anek Malayalam';font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/anek-malayalam-malayalam-600-normal.woff2) format('woff2');unicode-range:U+0307,U+0323,U+0964-0965,U+0D00-0D7F,U+200C-200D,U+20B9,U+25CC}
-@font-face{font-family:'Anek Malayalam';font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/anek-malayalam-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Anek Malayalam';font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/anek-malayalam-malayalam-700-normal.woff2) format('woff2');unicode-range:U+0307,U+0323,U+0964-0965,U+0D00-0D7F,U+200C-200D,U+20B9,U+25CC}
+@font-face{font-family:'Digits TNR';font-style:normal;font-weight:100 599;src:local('Times New Roman'), local('TimesNewRomanPSMT'), url(shima-nikhil-wedding/assets/fonts/tinos-latin-400-normal.woff2) format('woff2');unicode-range:U+0030-0039}
+@font-face{font-family:'Digits TNR';font-style:normal;font-weight:600 900;src:local('Times New Roman Bold'), local('TimesNewRomanPS-BoldMT'), url(shima-nikhil-wedding/assets/fonts/tinos-latin-700-normal.woff2) format('woff2');unicode-range:U+0030-0039}
+@font-face{font-family:'Digits TNR';font-style:italic;font-weight:100 599;src:local('Times New Roman Italic'), local('TimesNewRomanPS-ItalicMT'), url(shima-nikhil-wedding/assets/fonts/tinos-latin-400-italic.woff2) format('woff2');unicode-range:U+0030-0039}
+@font-face{font-family:'Pinyon Script';font-style:normal;font-weight:400;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/pinyon-script-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:400;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/cormorant-garamond-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:500;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/cormorant-garamond-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:600;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/cormorant-garamond-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:700;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/cormorant-garamond-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:400;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/cormorant-garamond-latin-400-italic.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:600;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/cormorant-garamond-latin-600-italic.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Jost';font-style:normal;font-weight:300;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/jost-latin-300-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Jost';font-style:normal;font-weight:400;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/jost-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Jost';font-style:normal;font-weight:500;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/jost-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Jost';font-style:normal;font-weight:600;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/jost-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Anek Malayalam';font-style:normal;font-weight:400;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/anek-malayalam-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Anek Malayalam';font-style:normal;font-weight:400;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/anek-malayalam-malayalam-400-normal.woff2) format('woff2');unicode-range:U+0307,U+0323,U+0964-0965,U+0D00-0D7F,U+200C-200D,U+20B9,U+25CC}
+@font-face{font-family:'Anek Malayalam';font-style:normal;font-weight:600;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/anek-malayalam-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Anek Malayalam';font-style:normal;font-weight:600;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/anek-malayalam-malayalam-600-normal.woff2) format('woff2');unicode-range:U+0307,U+0323,U+0964-0965,U+0D00-0D7F,U+200C-200D,U+20B9,U+25CC}
+@font-face{font-family:'Anek Malayalam';font-style:normal;font-weight:700;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/anek-malayalam-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Anek Malayalam';font-style:normal;font-weight:700;font-display:swap;src:url(shima-nikhil-wedding/assets/fonts/anek-malayalam-malayalam-700-normal.woff2) format('woff2');unicode-range:U+0307,U+0323,U+0964-0965,U+0D00-0D7F,U+200C-200D,U+20B9,U+25CC}
 /* ==========================================================================
    SHIMA & NIKHIL WEDDING INVITATION - STYLESHEET
    Kerala Hindu Wedding Storytelling & Invitation Experience
@@ -2002,7 +2002,7 @@ background:linear-gradient(rgba(184,137,58,.10) 1px,transparent 1px) 0 0/48px 48
 
 @font-face {
   font-family: 'Qalisten';
-  src: url('assets/fonts/Qalisten.otf') format('opentype');
+  src: url('shima-nikhil-wedding/assets/fonts/Qalisten.otf') format('opentype');
   font-display: swap;
 }
 
@@ -2122,4 +2122,14 @@ body.invitation-page .preloader {
 
 @media (prefers-reduced-motion: reduce) {
   .opening-curtain-panel { transition-duration: 1ms; }
+}
+
+/* Keep the couple's names in the intended typeface and on one line on phones. */
+@media (max-width: 540px) {
+  .hero-couple-names {
+    flex-wrap: nowrap;
+    gap: 0.3rem;
+    white-space: nowrap;
+    font-size: clamp(2.55rem, 11vw, 3.7rem);
+  }
 }
