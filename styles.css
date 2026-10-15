@@ -147,6 +147,7 @@ html.lenis, html.lenis body {
 }
 
 .scene-title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
   font-size: clamp(2.2rem, 5vw, 3.4rem);
   font-weight: 600;
   color: var(--maroon);

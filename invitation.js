@@ -43,8 +43,8 @@ const CONFIG = {
     invitationLine: "Cordially invite your esteemed presence with family on the auspicious occasion of the wedding of our daughter"
   },
   audio: {
-    // Optional custom MP3 URL (e.g. 'assets/music.mp3'). If empty, uses native Web Audio classical synthesizer!
-    customAudioUrl: "assets/music.mp3"
+    // Built-in music bed, started by the opening tap.
+    customAudioUrl: ""
   },
   gallery: [
     { src: "assets/gallery-1.jpg", title: "" },
@@ -838,7 +838,7 @@ function initAudioSystem() {
   let isPlaying = false;
   let autoplayBlocked = false;
   let playbackAttemptInProgress = false;
-  let customAudioEl = document.getElementById("wedding-audio");
+  let customAudioEl = CONFIG.audio.customAudioUrl ? document.getElementById("wedding-audio") : null;
   if (!customAudioEl && CONFIG.audio.customAudioUrl) {
     customAudioEl = new Audio(CONFIG.audio.customAudioUrl);
   }
@@ -874,7 +874,7 @@ function initAudioSystem() {
 
     droneGain = audioCtx.createGain();
     droneGain.gain.setValueAtTime(0.01, audioCtx.currentTime);
-    droneGain.gain.exponentialRampToValueAtTime(0.12, audioCtx.currentTime + 3);
+    droneGain.gain.exponentialRampToValueAtTime(0.036, audioCtx.currentTime + 3);
     droneGain.connect(audioCtx.destination);
 
     const droneFreqs = [146.83, 147.2, 220.0, 293.66];
@@ -920,7 +920,7 @@ function initAudioSystem() {
     pluckFilter.Q.setValueAtTime(3.5, now);
 
     pluckGain.gain.setValueAtTime(0.001, now);
-    pluckGain.gain.exponentialRampToValueAtTime(0.08, now + 0.08);
+    pluckGain.gain.exponentialRampToValueAtTime(0.024, now + 0.08);
     pluckGain.gain.exponentialRampToValueAtTime(0.0001, now + 2.8);
 
     pluckOsc.connect(pluckFilter);
