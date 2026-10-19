@@ -2210,17 +2210,6 @@ body.invitation-page .preloader {
   transform: translateY(-2px);
 }
 
-.invitation-card-ring {
-  width: 1.2rem;
-  height: 1.2rem;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.8;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  flex: 0 0 auto;
-}
-
 @media (max-width: 540px) {
   .invitation-card-button {
     width: min(100%, 20rem);
