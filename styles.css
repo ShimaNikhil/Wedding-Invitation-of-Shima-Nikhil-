@@ -2217,3 +2217,9 @@ body.invitation-page .preloader {
     padding-inline: 1rem;
   }
 }
+
+
+/* Ensure stale cached invitation button icons never display. */
+#btn-view-card svg {
+  display: none !important;
+}
