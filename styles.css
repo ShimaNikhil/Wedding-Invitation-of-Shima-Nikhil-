@@ -2184,3 +2184,47 @@ body.invitation-page .preloader {
     letter-spacing: -0.01em;
   }
 }
+
+
+/* Wedding invitation card action */
+.invitation-card-button {
+  margin-top: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  border-color: var(--gold);
+  color: var(--maroon);
+  background: rgba(255, 255, 255, 0.6);
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  box-shadow: 0 6px 16px rgba(184, 137, 58, 0.16);
+}
+
+.invitation-card-button:hover,
+.invitation-card-button:focus-visible {
+  background: var(--maroon);
+  border-color: var(--maroon);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
+.invitation-card-ring {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex: 0 0 auto;
+}
+
+@media (max-width: 540px) {
+  .invitation-card-button {
+    width: min(100%, 20rem);
+    font-size: 0.9rem;
+    padding-inline: 1rem;
+  }
+}
