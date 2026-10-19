@@ -2188,7 +2188,7 @@ body.invitation-page .preloader {
 
 /* Wedding invitation card action */
 .invitation-card-button {
-  margin-top: 1rem;
+  margin-top: 1.25rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -2200,6 +2200,8 @@ body.invitation-page .preloader {
   font-weight: 600;
   letter-spacing: 0.04em;
   box-shadow: 0 6px 16px rgba(184, 137, 58, 0.16);
+  padding: 1rem 2.15rem;
+  font-size: 1.05rem;
 }
 
 .invitation-card-button:hover,
