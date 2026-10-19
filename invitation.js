@@ -637,19 +637,40 @@ function initLightbox() {
   const prevBtn = document.getElementById("lightbox-prev");
   const nextBtn = document.getElementById("lightbox-next");
   const downloadLink = document.getElementById("lightbox-download");
+  const invitationButton = document.getElementById("btn-view-card");
 
   if (!modal || !imgEl) return;
 
   let currentIndex = 0;
+  let isSingleCardMode = false;
   const items = CONFIG.gallery;
 
   function openGalleryLightbox(src, title) {
+    isSingleCardMode = false;
     if (prevBtn) prevBtn.classList.remove("is-hidden");
     if (nextBtn) nextBtn.classList.remove("is-hidden");
 
     const foundIdx = items.findIndex(item => item.src === src);
     currentIndex = foundIdx !== -1 ? foundIdx : 0;
     updateLightbox();
+    modal.classList.add("is-open");
+    modal.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  }
+
+  function openInvitationCardLightbox() {
+    isSingleCardMode = true;
+    if (prevBtn) prevBtn.classList.add("is-hidden");
+    if (nextBtn) nextBtn.classList.add("is-hidden");
+
+    imgEl.src = "shima-nikhil-wedding/assets/invite-1.jpg";
+    imgEl.alt = "Shima and Nikhil Wedding Invitation";
+    if (captionEl) captionEl.textContent = "The Wedding Invitation";
+    if (downloadLink) {
+      downloadLink.href = "shima-nikhil-wedding/assets/invite-1.jpg";
+      downloadLink.download = "Shima-and-Nikhil-Wedding-Invitation.jpg";
+    }
+
     modal.classList.add("is-open");
     modal.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
@@ -680,6 +701,7 @@ function initLightbox() {
   }
 
   function showPrev() {
+    if (isSingleCardMode) return;
     currentIndex = (currentIndex - 1 + items.length) % items.length;
     updateLightbox();
   }
@@ -693,6 +715,7 @@ function initLightbox() {
     });
   });
 
+  if (invitationButton) invitationButton.addEventListener("click", openInvitationCardLightbox);
   if (closeBtn) closeBtn.addEventListener("click", closeLightbox);
   if (backdrop) backdrop.addEventListener("click", closeLightbox);
   if (nextBtn) nextBtn.addEventListener("click", showNext);
