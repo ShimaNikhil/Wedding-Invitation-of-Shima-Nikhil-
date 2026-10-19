@@ -2214,9 +2214,9 @@ body.invitation-page .preloader {
 
 @media (max-width: 540px) {
   .invitation-card-button {
-    width: min(100%, 20rem);
-    font-size: 0.9rem;
-    padding-inline: 1rem;
+    width: min(100%, 22rem);
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
   }
 }
 
