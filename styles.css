@@ -662,7 +662,7 @@ body.is-gated .audio-widget {
 .hero-scroll-cue {
   position: absolute;
   z-index: 2;
-  bottom: clamp(1.25rem, 4vh, 2.5rem);
+  bottom: clamp(3rem, 7vh, 4.5rem);
   left: 50%;
   display: flex;
   flex-direction: column;
@@ -670,7 +670,7 @@ body.is-gated .audio-widget {
   gap: 0.3rem;
   color: var(--gold-dark);
   font-family: var(--font-serif);
-  font-size: 0.72rem;
+  font-size: 0.92rem;
   font-weight: 600;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -680,8 +680,8 @@ body.is-gated .audio-widget {
 }
 
 .hero-scroll-cue svg {
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 1.55rem;
+  height: 1.55rem;
   animation: heroScrollCueBounce 1.8s ease-in-out infinite;
 }
 
