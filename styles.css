@@ -659,6 +659,42 @@ body.is-gated .audio-widget {
   overflow: hidden;
 }
 
+.hero-scroll-cue {
+  position: absolute;
+  z-index: 2;
+  bottom: clamp(1.25rem, 4vh, 2.5rem);
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--gold-dark);
+  font-family: var(--font-serif);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  pointer-events: none;
+  transform: translateX(-50%);
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.hero-scroll-cue svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  animation: heroScrollCueBounce 1.8s ease-in-out infinite;
+}
+
+.hero-scroll-cue.is-hidden {
+  opacity: 0;
+  transform: translate(-50%, 0.5rem);
+}
+
+@keyframes heroScrollCueBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(0.28rem); }
+}
+
 .hero-container {
   text-align: center;
 }
