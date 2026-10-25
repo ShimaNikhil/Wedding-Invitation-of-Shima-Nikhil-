@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initCalendarDownload();
   initLightbox();
   initBackToTop(lenis);
-  initHeroScrollCue(lenis);
+  initHeroScrollCue();
 
   if (sessionStorage.getItem("playWeddingMusic") === "true") {
     sessionStorage.removeItem("playWeddingMusic");
@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
 /* ===========================================================================
    HERO SCROLL CUE
    =========================================================================== */
-function initHeroScrollCue(lenis) {
+function initHeroScrollCue() {
   const cue = document.querySelector(".hero-scroll-cue");
   if (!cue) return;
 
@@ -134,7 +134,6 @@ function initHeroScrollCue(lenis) {
     window.removeEventListener("touchmove", dismiss);
     window.removeEventListener("keydown", dismissOnScrollKey);
     window.removeEventListener("scroll", dismiss);
-    lenis?.off?.("scroll", dismiss);
   };
   const dismissOnScrollKey = (event) => {
     if (["ArrowDown", "PageDown", "End", " "].includes(event.key)) dismiss();
@@ -144,7 +143,6 @@ function initHeroScrollCue(lenis) {
   window.addEventListener("touchmove", dismiss, { passive: true, once: true });
   window.addEventListener("keydown", dismissOnScrollKey);
   window.addEventListener("scroll", dismiss, { passive: true, once: true });
-  lenis?.on?.("scroll", dismiss);
 }
 
 /* ==========================================================================
